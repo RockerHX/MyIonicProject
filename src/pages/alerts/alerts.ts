@@ -17,7 +17,7 @@ import {
   templateUrl: 'alerts.html',
 })
 export class AlertsPage {
-  
+
   constructor(
     public actionSheetController: ActionSheetController,
     public alertController: AlertController
@@ -111,6 +111,64 @@ export class AlertsPage {
       ]
     });
     confirm.present();
+  }
+
+  showRadio() {
+    let alert = this.alertController.create();
+    alert.setTitle('Lightsaber color');
+
+    alert.addInput({
+      type: 'radio',
+      label: 'Blue',
+      value: 'blue',
+      checked: true
+    });
+    alert.addInput({
+      type: 'radio',
+      label: 'Red',
+      value: 'Red',
+      checked: true
+    });
+
+    alert.addButton('Cancel');
+    alert.addButton({
+      text: 'OK',
+      handler: data => {
+        console.log('OK clicked');
+      }
+    });
+    alert.present();
+  }
+
+  showCheckbox() {
+    let alert = this.alertController.create();
+    alert.setTitle('Which planets have you visited?');
+
+    alert.addInput({
+      type: 'checkbox',
+      label: 'Alderaan',
+      value: 'value1',
+      checked: true
+    });
+    alert.addInput({
+      type: 'checkbox',
+      label: 'Bespin',
+      value: 'value2'
+    });
+    alert.addInput({
+      type: 'checkbox',
+      label: 'SB',
+      value: 'SB'
+    });
+
+    alert.addButton('Cancel');
+    alert.addButton({
+      text: 'Okay',
+      handler: data => {
+        console.log('Okay clicked');
+      }
+    });
+    alert.present();
   }
 
 }
