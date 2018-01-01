@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { NavController, NavParams } from 'ionic-angular';
 
 /**
  * Generated class for the DatetimePage page.
@@ -14,11 +13,20 @@ import { NavController, NavParams } from 'ionic-angular';
 })
 export class DatetimePage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  public event = {
+    month: '1990-02-19',
+    timeStarts: '07:43',
+    timeEnds: '1990-02-20'
   }
+
+  constructor() {}
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad DatetimePage');
+  }
+  
+  printDate(): void {
+    console.log(this.event);
   }
 
 }
