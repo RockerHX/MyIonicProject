@@ -15,6 +15,7 @@ import { GesturesPage } from '../pages/gestures/gestures';
 import { GridPage } from '../pages/grid/grid';
 import { IconsPage } from '../pages/icons/icons';
 import { InputPage } from '../pages/input/input';
+import { ListsPage } from '../pages/lists/lists';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -52,7 +53,8 @@ export class MyApp {
       { title: 'Gestures', component: GesturesPage },
       { title: 'Grids', component: GridPage },
       { title: 'Icons', component: IconsPage },
-      { title: 'Input', component: InputPage }
+      { title: 'Input', component: InputPage },
+      { title: 'Lists', component: InputPage }
     ];
   }
 
