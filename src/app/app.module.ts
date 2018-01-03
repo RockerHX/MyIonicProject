@@ -21,6 +21,7 @@ import { ListsPage } from '../pages/lists/lists';
 import { LoadingPage } from '../pages/loading/loading';
 import { ModalsPage } from '../pages/modals/modals';
 import { NavigationPage, NavigationDetailsPage } from '../pages/navigation/navigation';
+import { PopoversPage, BasicPage } from '../pages/popovers/popovers';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -46,7 +47,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     LoadingPage,
     ModalsPage,
     NavigationPage,
-    NavigationDetailsPage
+    NavigationDetailsPage,
+    PopoversPage,
+    BasicPage
   ],
   imports: [
     BrowserModule,
@@ -73,7 +76,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     LoadingPage,
     ModalsPage,
     NavigationPage,
-    NavigationDetailsPage
+    NavigationDetailsPage,
+    PopoversPage,
+    BasicPage
   ],
   providers: [
     StatusBar,
