@@ -16,6 +16,7 @@ import { GridPage } from '../pages/grid/grid';
 import { IconsPage } from '../pages/icons/icons';
 import { InputPage } from '../pages/input/input';
 import { ListsPage } from '../pages/lists/lists';
+import { LoadingPage } from '../pages/loading/loading';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -54,7 +55,8 @@ export class MyApp {
       { title: 'Grids', component: GridPage },
       { title: 'Icons', component: IconsPage },
       { title: 'Input', component: InputPage },
-      { title: 'Lists', component: InputPage }
+      { title: 'Lists', component: ListsPage },
+      { title: 'Loading', component: LoadingPage }
     ];
   }
 

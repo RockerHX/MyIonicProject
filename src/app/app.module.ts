@@ -18,6 +18,7 @@ import { GridPage } from '../pages/grid/grid';
 import { IconsPage } from '../pages/icons/icons';
 import { InputPage } from '../pages/input/input';
 import { ListsPage } from '../pages/lists/lists';
+import { LoadingPage } from '../pages/loading/loading';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -39,7 +40,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     GridPage,
     IconsPage,
     InputPage,
-    ListsPage
+    ListsPage,
+    LoadingPage
   ],
   imports: [
     BrowserModule,
@@ -62,7 +64,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     GridPage,
     IconsPage,
     InputPage,
-    ListsPage
+    ListsPage,
+    LoadingPage
   ],
   providers: [
     StatusBar,
