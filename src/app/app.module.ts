@@ -19,7 +19,8 @@ import { IconsPage } from '../pages/icons/icons';
 import { InputPage } from '../pages/input/input';
 import { ListsPage } from '../pages/lists/lists';
 import { LoadingPage } from '../pages/loading/loading';
-import { ModalsPage } from './../pages/modals/modals';
+import { ModalsPage } from '../pages/modals/modals';
+import { NavigationPage, NavigationDetailsPage } from '../pages/navigation/navigation';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -43,7 +44,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     InputPage,
     ListsPage,
     LoadingPage,
-    ModalsPage
+    ModalsPage,
+    NavigationPage,
+    NavigationDetailsPage
   ],
   imports: [
     BrowserModule,
@@ -68,7 +71,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     InputPage,
     ListsPage,
     LoadingPage,
-    ModalsPage
+    ModalsPage,
+    NavigationPage,
+    NavigationDetailsPage
   ],
   providers: [
     StatusBar,
