@@ -14,6 +14,8 @@ import { NavController, NavParams } from 'ionic-angular';
 })
 export class ListsPage {
 
+  public items = ["11111", "22222", "33333", "444444"];
+
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
@@ -21,4 +23,7 @@ export class ListsPage {
     console.log('ionViewDidLoad ListsPage');
   }
 
+  itemSelected(item) {
+    console.log(item);
+  }
 }
