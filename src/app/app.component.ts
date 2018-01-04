@@ -24,6 +24,7 @@ import { RadioPage } from '../pages/radio/radio';
 import { RangePage } from '../pages/range/range';
 import { SearchbarPage } from '../pages/searchbar/searchbar';
 import { SegmentPage } from '../pages/segment/segment';
+import { SelectPage } from '../pages/select/select';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -70,7 +71,8 @@ export class MyApp {
       { title: 'Radio', component: RadioPage },
       { title: 'Range', component: RangePage },
       { title: 'Searchbar', component: SearchbarPage },
-      { title: 'Segment', component: SegmentPage }
+      { title: 'Segment', component: SegmentPage },
+      { title: 'Selects', component: SelectPage }
     ];
   }
 
