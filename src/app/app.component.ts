@@ -27,6 +27,7 @@ import { SegmentPage } from '../pages/segment/segment';
 import { SelectPage } from '../pages/select/select';
 import { SlidesPage } from '../pages/slides/slides';
 import { ToastPage } from './../pages/toast/toast';
+import { TogglePage } from '../pages/toggle/toggle';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -76,7 +77,8 @@ export class MyApp {
       { title: 'Segment', component: SegmentPage },
       { title: 'Selects', component: SelectPage },
       { title: 'Slides', component: SlidesPage },
-      { title: 'Toasts', component: ToastPage }
+      { title: 'Toasts', component: ToastPage },
+      { title: 'Toggles', component: TogglePage }
     ];
   }
 
