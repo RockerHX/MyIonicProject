@@ -27,6 +27,7 @@ import { RangePage } from '../pages/range/range';
 import { SearchbarPage } from '../pages/searchbar/searchbar';
 import { SegmentPage } from '../pages/segment/segment';
 import { SelectPage } from '../pages/select/select';
+import { SlidesPage } from '../pages/slides/slides';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -57,7 +58,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     RangePage,
     SearchbarPage,
     SegmentPage,
-    SelectPage
+    SelectPage,
+    SlidesPage
   ],
   imports: [
     BrowserModule,
@@ -89,7 +91,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     RangePage,
     SearchbarPage,
     SegmentPage,
-    SelectPage
+    SelectPage,
+    SlidesPage
   ],
   providers: [
     StatusBar,

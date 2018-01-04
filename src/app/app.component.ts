@@ -25,6 +25,7 @@ import { RangePage } from '../pages/range/range';
 import { SearchbarPage } from '../pages/searchbar/searchbar';
 import { SegmentPage } from '../pages/segment/segment';
 import { SelectPage } from '../pages/select/select';
+import { SlidesPage } from '../pages/slides/slides';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -72,7 +73,8 @@ export class MyApp {
       { title: 'Range', component: RangePage },
       { title: 'Searchbar', component: SearchbarPage },
       { title: 'Segment', component: SegmentPage },
-      { title: 'Selects', component: SelectPage }
+      { title: 'Selects', component: SelectPage },
+      { title: 'Slides', component: SlidesPage }
     ];
   }
 
