@@ -22,6 +22,7 @@ import { NavigationPage } from '../pages/navigation/navigation';
 import { PopoversPage } from '../pages/popovers/popovers';
 import { RadioPage } from '../pages/radio/radio';
 import { RangePage } from '../pages/range/range';
+import { SearchbarPage } from '../pages/searchbar/searchbar';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -66,7 +67,8 @@ export class MyApp {
       { title: 'Navigation', component: NavigationPage },
       { title: 'Popovers', component: PopoversPage },
       { title: 'Radio', component: RadioPage },
-      { title: 'Range', component: RangePage }
+      { title: 'Range', component: RangePage },
+      { title: 'Searchbar', component: SearchbarPage }
     ];
   }
 
