@@ -25,6 +25,7 @@ import { PopoversPage, BasicPage } from '../pages/popovers/popovers';
 import { RadioPage } from '../pages/radio/radio';
 import { RangePage } from '../pages/range/range';
 import { SearchbarPage } from '../pages/searchbar/searchbar';
+import { SegmentPage } from '../pages/segment/segment';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -53,7 +54,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     PopoversPage, BasicPage,
     RadioPage,
     RangePage,
-    SearchbarPage
+    SearchbarPage,
+    SegmentPage
   ],
   imports: [
     BrowserModule,
@@ -83,7 +85,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     PopoversPage, BasicPage,
     RadioPage,
     RangePage,
-    SearchbarPage
+    SearchbarPage,
+    SegmentPage
   ],
   providers: [
     StatusBar,
